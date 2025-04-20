@@ -1,4 +1,3 @@
-# givtignore forpython and env file\
 # Ignore Python bytecode files
 __pycache__/
 *.py[cod]
