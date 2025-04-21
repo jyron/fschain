@@ -67,8 +67,20 @@ def load_metrics_schema(file_path: str) -> Dict[str, Any]:
     with open(file_path) as f:
         return json.load(f)
 
+def print_metrics(data: Dict[str, Any]):
+    '''
+    Print the metrics in a structured format.'''
+    print(f"Symbol: {data['symbol']}")
+    print(f"Date: {data['date']}")
+    print("=" * 50)
+
+    for category, metrics in data["FTokenMetricsTTM"].items():
+        print(f"\n📘 {category}")
+        print("-" * 50)
+        for metric, value in metrics.items():
+            print(f"{metric:<40} : {value}")
 # example usage (uncomment to run):
 # metrics_schema = load_metrics_schema("specifications/ftoken-metrics.json")
 # symbol = "TSLA"
 # ftoken_data = fetch_and_build_ftoken(symbol, metrics_schema)
-# pprint(ftoken_data)
+# print_metrics(ftoken_data)
