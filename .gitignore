@@ -17,3 +17,6 @@ venv/
 *.tmp
 *.swp
 .DS_Store
+
+#scratch
+scratch.py

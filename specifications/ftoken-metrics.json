@@ -1,0 +1,91 @@
+{
+    "ReturnOnCapital": {
+        "returnOnAssetsTTM": "Net income divided by total assets; measures how effectively a company uses its assets to generate profit.",
+        "operatingReturnOnAssetsTTM": "Operating income divided by total assets; isolates operational profitability from total resources.",
+        "returnOnTangibleAssetsTTM": "Net income divided by tangible assets; strips out intangibles for a conservative return measure.",
+        "returnOnEquityTTM": "Net income divided by shareholder equity; reflects profitability to equity holders.",
+        "returnOnInvestedCapitalTTM": "NOPAT divided by invested capital; measures return generated on all capital providers.",
+        "returnOnCapitalEmployedTTM": "EBIT divided by capital employed; indicates how well capital is used in the core business."
+    },
+    "CapexAndCostStructure": {
+        "capexToOperatingCashFlowTTM": "Capital expenditures divided by operating cash flow; assesses reinvestment capacity from internal funding.",
+        "capexToDepreciationTTM": "Capex divided by depreciation; distinguishes between maintenance and growth investment.",
+        "capexToRevenueTTM": "Capex divided by revenue; reflects capital intensity relative to scale.",
+        "salesGeneralAndAdministrativeToRevenueTTM": "SG&A expenses divided by revenue; evaluates operational overhead burden.",
+        "researchAndDevelopementToRevenueTTM": "R&D expenses divided by revenue; shows innovation investment intensity.",
+        "stockBasedCompensationToRevenueTTM": "Stock-based compensation divided by revenue; assesses dilution and equity-based pay structure."
+    },
+    "AssetAndCapitalQuality": {
+        "intangiblesToTotalAssetsTTM": "Intangible assets divided by total assets; assesses reliance on non-physical asset base.",
+        "workingCapitalTTM": "Current assets minus current liabilities; basic measure of short-term operational liquidity.",
+        "investedCapitalTTM": "Debt plus equity minus non-operating assets; total capital deployed in operations.",
+        "netCurrentAssetValueTTM": "Current assets minus total liabilities; a liquidation-style valuation approach.",
+        "tangibleAssetValueTTM": "Total assets minus intangible assets; reflects physical, conservatively valued asset base."
+    },
+    "CashCycle": {
+        "daysOfSalesOutstandingTTM": "Average days it takes to collect revenue; gauges receivables efficiency.",
+        "daysOfPayablesOutstandingTTM": "Average days to pay suppliers; higher values improve working capital.",
+        "daysOfInventoryOutstandingTTM": "Average days inventory is held before sale; evaluates inventory management.",
+        "operatingCycleTTM": "DSO + DIO; time it takes to convert inventory into cash via sales.",
+        "cashConversionCycleTTM": "Operating cycle minus DPO; net duration cash is tied up in operations."
+    },
+    "Profitability": {
+        "grossProfitMarginTTM": "Gross profit divided by revenue; measures pricing power and production efficiency.",
+        "operatingProfitMarginTTM": "Operating income divided by revenue; evaluates profitability from core operations.",
+        "ebitMarginTTM": "EBIT divided by revenue; broader view of operating profitability before interest and taxes.",
+        "ebitdaMarginTTM": "EBITDA divided by revenue; includes non-cash charges for a smoother profitability profile.",
+        "pretaxProfitMarginTTM": "Pretax income divided by revenue; shows earnings strength before tax effects.",
+        "netProfitMarginTTM": "Net income divided by revenue; comprehensive measure of profitability after all costs.",
+        "bottomLineProfitMarginTTM": "Equivalent to net profit margin; captures final earnings performance.",
+        "continuousOperationsProfitMarginTTM": "Profit from continuing operations divided by revenue; excludes one-time items."
+    },
+    "CashFlowStrength": {
+        "operatingCashFlowRatioTTM": "Operating cash flow divided by current liabilities; assesses liquidity from operations.",
+        "operatingCashFlowSalesRatioTTM": "Operating cash flow divided by revenue; shows efficiency of cash generation from sales.",
+        "freeCashFlowOperatingCashFlowRatioTTM": "Free cash flow divided by operating cash flow; highlights discretionary cash.",
+        "capitalExpenditureCoverageRatioTTM": "Operating cash flow divided by capex; evaluates internal funding capacity for investment.",
+        "dividendPaidAndCapexCoverageRatioTTM": "Operating cash flow divided by dividends and capex; tests payout sustainability.",
+        "operatingCashFlowCoverageRatioTTM": "Operating cash flow divided by total obligations; broader liquidity measure.",
+        "shortTermOperatingCashFlowCoverageRatioTTM": "Operating cash flow divided by short-term liabilities; tests immediate cash coverage."
+    },
+    "Efficiency": {
+        "receivablesTurnoverTTM": "Revenue divided by average receivables; measures collection efficiency.",
+        "payablesTurnoverTTM": "COGS divided by payables; shows how fast suppliers are paid.",
+        "inventoryTurnoverTTM": "COGS divided by inventory; evaluates inventory movement speed.",
+        "fixedAssetTurnoverTTM": "Revenue divided by fixed assets; measures long-term asset utilization.",
+        "assetTurnoverTTM": "Revenue divided by total assets; assesses how efficiently assets are used.",
+        "workingCapitalTurnoverRatioTTM": "Revenue divided by working capital; evaluates short-term capital productivity."
+    },
+    "Liquidity": {
+        "currentRatioTTM": "Current assets divided by current liabilities; basic liquidity test.",
+        "quickRatioTTM": "Quick assets divided by current liabilities; excludes inventory for stricter liquidity.",
+        "cashRatioTTM": "Cash divided by current liabilities; most conservative liquidity metric."
+    },
+    "Solvency": {
+        "debtToEquityRatioTTM": "Total debt divided by shareholder equity; gauges financial leverage.",
+        "debtToAssetsRatioTTM": "Total debt divided by total assets; shows how much of the company is financed by debt.",
+        "debtToCapitalRatioTTM": "Debt divided by total capital; measures debt share in long-term funding.",
+        "longTermDebtToCapitalRatioTTM": "Long-term debt divided by total capital; isolates structural debt component.",
+        "financialLeverageRatioTTM": "Total assets divided by equity; reflects balance sheet leverage.",
+        "solvencyRatioTTM": "Net income plus depreciation divided by total liabilities; estimates long-term solvency.",
+        "debtServiceCoverageRatioTTM": "EBITDA divided by debt service obligations; measures debt repayment ability.",
+        "interestCoverageRatioTTM": "EBIT divided by interest expense; evaluates ability to cover interest obligations."
+    },
+    "PerShareFundamentals": {
+        "revenuePerShareTTM": "Total revenue divided by average outstanding shares; normalizes sales across equity base.",
+        "netIncomePerShareTTM": "Net income divided by shares; foundational EPS indicator.",
+        "cashPerShareTTM": "Cash divided by shares; indicates liquidity on a per-share basis.",
+        "bookValuePerShareTTM": "Equity divided by shares; represents accounting value of equity.",
+        "tangibleBookValuePerShareTTM": "Tangible equity divided by shares; excludes intangibles for conservative view.",
+        "shareholdersEquityPerShareTTM": "Total equity divided by shares; similar to book value per share.",
+        "operatingCashFlowPerShareTTM": "Operating cash flow divided by shares; evaluates cash profitability per unit.",
+        "capexPerShareTTM": "Capex divided by shares; investment intensity per share.",
+        "freeCashFlowPerShareTTM": "Free cash flow divided by shares; indicates discretionary earnings.",
+        "interestDebtPerShareTTM": "Interest-bearing debt divided by shares; shows per-share financial burden."
+    },
+    "TaxAndEarningsStructure": {
+        "effectiveTaxRateTTM": "Tax expense divided by pretax income; reflects tax burden efficiency.",
+        "netIncomePerEBTTTM": "Net income divided by earnings before tax; shows tax and non-operating impact.",
+        "ebtPerEbitTTM": "EBT divided by EBIT; measures effect of interest on earnings."
+    }
+}
