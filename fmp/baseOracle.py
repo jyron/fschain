@@ -74,7 +74,8 @@ def load_metrics_schema(file_path: str) -> Dict[str, Any]:
 
 def print_metrics(data: Dict[str, Any]):
     '''
-    Print the metrics in a structured format.'''
+    Print the metrics in a structured format.
+    '''
     print(f"Symbol: {data['symbol']}")
     print(f"Date: {data['date']}")
     print("=" * 50)
