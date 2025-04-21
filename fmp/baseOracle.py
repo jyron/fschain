@@ -22,6 +22,7 @@ def fetchFMP_RATIOS_TTM(symbol: str) -> Dict[str, Any]:
     data = response.json()
     return data[0] if data else {}
 
+
 def fetchFMP_KEY_Metrics_TTM(symbol: str) -> Dict[str, Any]:
     """
     Fetch TTM key metrics from Financial Modeling Prep API.
@@ -31,6 +32,7 @@ def fetchFMP_KEY_Metrics_TTM(symbol: str) -> Dict[str, Any]:
     response.raise_for_status()
     data = response.json()
     return data[0] if data else {}
+
 
 def build_ftoken_object(data: Dict[str, Any], metrics_schema) -> Dict[str, Any]:
     """
@@ -48,6 +50,7 @@ def build_ftoken_object(data: Dict[str, Any], metrics_schema) -> Dict[str, Any]:
     
     return result
 
+
 def fetch_and_build_ftoken(symbol: str, metrics_schema) -> Dict[str, Any]:
     """
     Fetch financial data and build FToken object.
@@ -60,12 +63,14 @@ def fetch_and_build_ftoken(symbol: str, metrics_schema) -> Dict[str, Any]:
     
     return core_ftoken_data
 
+
 def load_metrics_schema(file_path: str) -> Dict[str, Any]:
     """
     Load the metric schema from a JSON file.
     """
     with open(file_path) as f:
         return json.load(f)
+
 
 def print_metrics(data: Dict[str, Any]):
     '''
