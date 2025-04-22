@@ -89,4 +89,4 @@ def print_metrics(data: Dict[str, Any]):
 # metrics_schema = load_metrics_schema("specifications/ftoken-metrics.json")
 # symbol = "TSLA"
 # ftoken_data = fetch_and_build_ftoken(symbol, metrics_schema)
-# print_metrics(ftoken_data)
+# print(ftoken_data)
