@@ -3,15 +3,20 @@ import os
 from datetime import datetime
 from pprint import pprint
 from typing import Any, Dict
-
+from app.integrations.auth import FMP_API_KEY
 import requests
-from dotenv import load_dotenv
-
-load_dotenv()
 
 
 FMP_API_KEY = os.getenv("FMP_API_KEY")
 
+
+def load_metrics_schema(file_path: str) -> Dict[str, Any]:
+    """
+    Load the metric schema from a JSON file.
+    """
+    with open(file_path) as f:
+        return json.load(f)
+    
 def fetchFMP_RATIOS_TTM(symbol: str) -> Dict[str, Any]:
     """
     Fetch TTM ratios from Financial Modeling Prep API.
@@ -41,12 +46,11 @@ def build_ftoken_object(data: Dict[str, Any], metrics_schema) -> Dict[str, Any]:
     result = {
         "date": datetime.utcnow().strftime("%Y-%m-%d"),
         "symbol": data.get("symbol", ""),
-        "FTokenMetricsTTM": {}
     }
     for category, metrics in metrics_schema.items():
-        result["FTokenMetricsTTM"][category] = {}
+        result[category] = {}
         for metric in metrics:
-            result["FTokenMetricsTTM"][category][metric] = data.get(metric, None)
+            result[category][metric] = data.get(metric, None)
     
     return result
 
@@ -59,17 +63,10 @@ def fetch_and_build_ftoken(symbol: str, metrics_schema) -> Dict[str, Any]:
     TTM_key_metrics = fetchFMP_KEY_Metrics_TTM(symbol)
 
     combined_TTM = {**TTM_ratios, **TTM_key_metrics}
-    core_ftoken_data = build_ftoken_object(combined_TTM, metrics_schema)
-    
-    return core_ftoken_data
+    return build_ftoken_object(combined_TTM, metrics_schema)
 
 
-def load_metrics_schema(file_path: str) -> Dict[str, Any]:
-    """
-    Load the metric schema from a JSON file.
-    """
-    with open(file_path) as f:
-        return json.load(f)
+
 
 
 def print_metrics(data: Dict[str, Any]):
@@ -86,7 +83,7 @@ def print_metrics(data: Dict[str, Any]):
         for metric, value in metrics.items():
             print(f"{metric:<40} : {value}")
 # example usage (uncomment to run):
-# metrics_schema = load_metrics_schema("specifications/ftoken-metrics.json")
+# metrics_schema = load_metrics_schema("app/specifications/ftoken-metrics.json")
 # symbol = "TSLA"
 # ftoken_data = fetch_and_build_ftoken(symbol, metrics_schema)
-# print(ftoken_data)
+# pprint(ftoken_data)
