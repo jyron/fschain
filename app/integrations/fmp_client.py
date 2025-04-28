@@ -3,10 +3,10 @@ import os
 from datetime import datetime
 from pprint import pprint
 from typing import Any, Dict
-from app.integrations.auth import FMP_API_KEY
 import requests
+from dotenv import load_dotenv
 
-
+load_dotenv()
 FMP_API_KEY = os.getenv("FMP_API_KEY")
 
 
@@ -64,9 +64,6 @@ def fetch_and_build_ftoken(symbol: str, metrics_schema) -> Dict[str, Any]:
 
     combined_TTM = {**TTM_ratios, **TTM_key_metrics}
     return build_ftoken_object(combined_TTM, metrics_schema)
-
-
-
 
 
 def print_metrics(data: Dict[str, Any]):
