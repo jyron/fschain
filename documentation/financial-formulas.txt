@@ -1,0 +1,36 @@
+Methodology for Financial Indexing.
+
+We want this indexing to make sense upon first read, and be repeatable by anyone.
+Here is the approach. Core principles, followed by detailed methodology.
+
+# Core Principles
+
+1. Self-contained calculations using only publicly available data
+2. Clear boundaries that anyone can understand
+3. Repeatable methodology without subjective input
+4. Transparent weighting that makes intuitive sense
+
+# Boundary Method
+
+Let's use a percentile-based approach to create boundaries for the indexing.
+- Min Val = 10th Percentile of all companies in a particlar dataset
+- Max Val = 90th Percentile of all companies in a dataset.
+- Everything below 10th percentile scores 0
+- Everything above 90th percentile scores 1
+This prevents outliers skewing the dataset too much.
+
+## Boundary Documentation
+Clearly document actual boundaries used for indexing.
+Update boundaries on a fixed schedule (probaly quarterly).
+Publish raw data.
+
+# Metric Selection
+
+We can condense the metrics into 4 attributes that are easy to understand, and allow users to focus indexing weights as they wish through governance.
+This means that governance allows users to vote on how important each attribute should be.
+
+- Profitability (30%)
+- Stability (30%)
+- Growth/Revenue (20%)
+- Efficiency (20%)
+

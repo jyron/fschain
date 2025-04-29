@@ -7,7 +7,7 @@ from pprint import pprint
 
 
 metrics_schema = load_metrics_schema("app/specifications/ftoken-metrics.json")
-data = fetch_and_build_ftoken("AAPL", metrics_schema=metrics_schema)
+data = fetch_and_build_ftoken("TSLA", metrics_schema=metrics_schema)
 
 finances = CompanyFinancialMetrics(returnOnCapital=ReturnOnCapital(**data.get("ReturnOnCapital")),
     capexAndCostStructure=CapexAndCostStructure(**data.get("CapexAndCostStructure")),
