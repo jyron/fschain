@@ -36,6 +36,3 @@ def createCompany(symbol) -> Company:
         fiscalYear=str(datetime.utcnow().year),
         financials=createFinancialMetricsObject(data)
     )
-
-# google = createCompany("GOOGL")
-# pprint(google.model_dump())

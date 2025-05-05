@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 
-# Metric and pillar weights clearly defined as constants
 PILLAR_WEIGHTS = {
     'Profitability': 0.25,
     'Liquidity': 0.20,
@@ -69,14 +68,14 @@ INVERSE_METRICS = [
     'salesGeneralAndAdministrativeToRevenueTTM'
 ]
 
-# Normalization function clearly defined
+
 def normalize_metric(value, min_val, max_val, inverse=False):
     if max_val == min_val:
         return 0.0
     normalized = (value - min_val) / (max_val - min_val)
     return 1 - normalized if inverse else normalized
 
-# Function to normalize an entire set of metrics for a single company
+
 def normalize_company_metrics(company_metrics, metric_min_max):
     normalized_metrics = {}
     for metric, value in company_metrics.items():
@@ -85,7 +84,7 @@ def normalize_company_metrics(company_metrics, metric_min_max):
         normalized_metrics[metric] = normalize_metric(value, min_val, max_val, inverse)
     return normalized_metrics
 
-# Function to calculate pillar scores for one company
+
 def calculate_pillar_scores(normalized_metrics):
     pillar_scores = {}
     for pillar, metrics in METRIC_WEIGHTS.items():
@@ -93,14 +92,14 @@ def calculate_pillar_scores(normalized_metrics):
         pillar_scores[pillar] = pillar_score
     return pillar_scores
 
-# Main function to calculate financial index for a single company
+
 def calculate_financial_index(company_metrics, metric_min_max):
     normalized_metrics = normalize_company_metrics(company_metrics, metric_min_max)
     pillar_scores = calculate_pillar_scores(normalized_metrics)
     financial_index = sum(pillar_scores[pillar] * weight for pillar, weight in PILLAR_WEIGHTS.items())
     return financial_index
 
-# Wrapper function to calculate indices for all companies in a dataset
+
 def calculate_indices_for_companies(companies_df):
     metric_min_max = {
         metric: (companies_df[metric].min(), companies_df[metric].max())
@@ -109,11 +108,7 @@ def calculate_indices_for_companies(companies_df):
     indices = companies_df.apply(lambda metrics: calculate_financial_index(metrics, metric_min_max), axis=1)
     return indices
 
-# Usage example
-# indices_result = calculate_indices_for_companies(df_companies)
-# print(indices_result)
 
-# For convenience in displaying results explicitly
 def get_indices_dataframe(companies_df):
     indices = calculate_indices_for_companies(companies_df)
     return pd.DataFrame(indices, columns=['Custom Weighted Financial Index'])

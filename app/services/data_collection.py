@@ -2,31 +2,19 @@ import time
 from typing import List
 import pandas as pd
 from app.models.Company import Company
-from app.models.FinancialModel import CompanyFinancialMetrics
 from app.services.create_company import createCompany
 
-tickers = [
-    "AAPL", "TSLA", "AMZN", "MSFT", "NVDA", "GOOGL", "META", "NFLX", "JPM", "V",
-    "BAC", "AMD", "PYPL", "DIS", "T", "PFE", "COST", "INTC", "KO", "TGT", 
-    "NKE", "SPY", "BA", "BABA", "XOM", "WMT", "GE", "CSCO", "VZ", "JNJ",
-    "CVX", "PLTR", "SQ", "SHOP", "SBUX", "SOFI", "HOOD", "RBLX", "SNAP", "UBER",
-    "FDX", "ABBV", "ETSY", "MRNA", "LMT", "GM", "F", "RIVN", "LCID", "CCL",
-    "DAL", "UAL", "AAL", "TSM", "SONY", "ET", "NOK", "MRO", "COIN", "SIRI",
-    "RIOT", "CPRX", "VWO", "SPYG", "ROKU", "VIAC", "ATVI", "BIDU", "DOCU", "ZM",
-    "PINS", "TLRY", "WBA", "MGM", "NIO", "C", "GS", "WFC", "ADBE", "PEP",
-    "UNH", "CARR", "FUBO", "HCA", "TWTR", "BILI", "RKT"
-]
 
 def fetch_and_create_companies(tickers) ->list[Company]:
     """
     Fetch and create Company objects for the given tickers.
     """
     companies = []
-    for ticker in tickers[:5]:
+    for ticker in tickers:
         try:
             company = createCompany(ticker)
             companies.append(company)
-            time.sleep(.5)  # To avoid hitting API rate limits
+            time.sleep(.5)
         except Exception as e:
             print(f"Error creating company for {ticker}: {e}")
     return companies
@@ -75,9 +63,3 @@ def extract_all_metrics_dataframe(companies: List[Company]) -> pd.DataFrame:
         df.set_index('ticker', inplace=True)
     
     return df
-
-# print("Fetching and creating companies...")
-# companies = fetch_and_create_companies(tickers[10:13])
-# dataframe = extract_all_metrics_dataframe(companies)
-# print("DataFrame created:")
-# print(dataframe.head())
