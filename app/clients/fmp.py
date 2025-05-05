@@ -79,8 +79,3 @@ def print_metrics(data: Dict[str, Any]):
         print("-" * 50)
         for metric, value in metrics.items():
             print(f"{metric:<40} : {value}")
-# example usage (uncomment to run):
-# metrics_schema = load_metrics_schema("app/specifications/ftoken-metrics.json")
-# symbol = "TSLA"
-# ftoken_data = fetch_and_build_ftoken(symbol, metrics_schema)
-# pprint(ftoken_data)

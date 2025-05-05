@@ -1,5 +1,5 @@
 from datetime import datetime
-from app.integrations.fmp_client import fetch_and_build_ftoken, load_metrics_schema
+from app.clients.fmp import fetch_and_build_ftoken, load_metrics_schema
 from app.models.Company import Company
 from app.models.FinancialModel import CompanyFinancialMetrics, ReturnOnCapital, CapexAndCostStructure, AssetAndCapitalQuality, CashCycle, Profitability, CashFlowStrength, Efficiency, Liquidity, Solvency, PerShareFundamentals, TaxAndEarningsStructure
 from typing import Dict, Optional
@@ -37,5 +37,5 @@ def createCompany(symbol) -> Company:
         financials=createFinancialMetricsObject(data)
     )
 
-google = createCompany("GOOGL")
-pprint(google.model_dump())
+# google = createCompany("GOOGL")
+# pprint(google.model_dump())
