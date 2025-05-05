@@ -7,4 +7,3 @@ class Company(BaseModel):
     ticker: Optional[str]
     fiscalYear: Optional[str]
     financials: CompanyFinancialMetrics
-
