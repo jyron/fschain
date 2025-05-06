@@ -85,7 +85,7 @@
     ],
     "cashConversionCycleTTM": [
         -66.36472566482398,
-        110.62602528947997
+        111.08870745951975
     ],
     "grossProfitMarginTTM": [
         0.14102609146823186,
@@ -120,11 +120,11 @@
         0.35051228119523214
     ],
     "operatingCashFlowRatioTTM": [
-        -0.008227175270468057,
+        -0.0011612670035674468,
         1.154287880627544
     ],
     "operatingCashFlowSalesRatioTTM": [
-        -0.18443847280639245,
+        -0.12255507139140004,
         0.4225337881362092
     ],
     "freeCashFlowOperatingCashFlowRatioTTM": [
@@ -136,11 +136,11 @@
         38.591103795822164
     ],
     "dividendPaidAndCapexCoverageRatioTTM": [
-        -1.628061538327845,
+        -1.1704739632194108,
         37.82860379582217
     ],
     "operatingCashFlowCoverageRatioTTM": [
-        -0.03713521000173417,
+        -0.020157303814872914,
         2.669804393703318
     ],
     "shortTermOperatingCashFlowCoverageRatioTTM": [
@@ -189,7 +189,7 @@
     ],
     "debtToAssetsRatioTTM": [
         0.03129177571167943,
-        0.48104620269417026
+        0.4829444034670368
     ],
     "debtToCapitalRatioTTM": [
         0.03719135850853055,
@@ -248,12 +248,12 @@
         8.62149668378534
     ],
     "freeCashFlowPerShareTTM": [
-        -2.213645217085172,
+        -2.5212499663082397,
         16.877989277032732
     ],
     "interestDebtPerShareTTM": [
         0.43014766832242873,
-        101.59212350001825
+        109.18103809031234
     ],
     "effectiveTaxRateTTM": [
         -0.14681169078201037,
