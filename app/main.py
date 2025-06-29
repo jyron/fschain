@@ -87,8 +87,6 @@ def calculate_and_save_all_company_indexes(output_file="company_financial_indexe
             companies = fetch_and_create_companies(batch_tickers)
             companies_df = extract_all_metrics_dataframe(companies)
             all_company_data.append(companies_df)
-            
-
             time.sleep(2)
         except Exception as e:
             print(f"Error processing batch: {e}")
