@@ -14,6 +14,7 @@ def fetch_and_create_companies(tickers) ->list[Company]:
         try:
             company = createCompany(ticker)
             companies.append(company)
+            print(f"Created company for {ticker}")
         except Exception as e:
             print(f"Error creating company for {ticker}: {e}")
     return companies

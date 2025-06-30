@@ -79,3 +79,6 @@ def print_metrics(data: Dict[str, Any]):
         print("-" * 50)
         for metric, value in metrics.items():
             print(f"{metric:<40} : {value}")
+
+
+

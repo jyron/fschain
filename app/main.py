@@ -4,18 +4,23 @@ from app.services.calculate_min_max import calculate_metric_boundaries, save_met
 from app.services.calculate_index import calculate_all_companies_indexes
 import time
 import pandas as pd
+import json
 
-tickers = [
-    "AAPL", "TSLA", "AMZN", "MSFT", "NVDA", "GOOGL", "META", "NFLX", "JPM", "V",
-    "BAC", "AMD", "PYPL", "DIS", "T", "PFE", "COST", "INTC", "KO", "TGT", 
-    "NKE", "SPY", "BA", "BABA", "XOM", "WMT", "GE", "CSCO", "VZ", "JNJ",
-    "CVX", "PLTR", "SQ", "SHOP", "SBUX", "SOFI", "HOOD", "RBLX", "SNAP", "UBER",
-    "FDX", "ABBV", "ETSY", "MRNA", "LMT", "GM", "F", "RIVN", "LCID", "CCL",
-    "DAL", "UAL", "AAL", "TSM", "SONY", "ET", "NOK", "MRO", "COIN", "SIRI",
-    "RIOT", "CPRX", "VWO", "SPYG", "ROKU", "VIAC", "ATVI", "BIDU", "DOCU", "ZM",
-    "PINS", "TLRY", "WBA", "MGM", "NIO", "C", "GS", "WFC", "ADBE", "PEP",
-    "UNH", "CARR", "FUBO", "HCA", "TWTR", "BILI", "RKT"
-]
+# tickers = [
+#     "AAPL", "TSLA", "AMZN", "MSFT", "NVDA", "GOOGL", "META", "NFLX", "JPM", "V",
+#     "BAC", "AMD", "PYPL", "DIS", "T", "PFE", "COST", "INTC", "KO", "TGT", 
+#     "NKE", "SPY", "BA", "BABA", "XOM", "WMT", "GE", "CSCO", "VZ", "JNJ",
+#     "CVX", "PLTR", "SQ", "SHOP", "SBUX", "SOFI", "HOOD", "RBLX", "SNAP", "UBER",
+#     "FDX", "ABBV", "ETSY", "MRNA", "LMT", "GM", "F", "RIVN", "LCID", "CCL",
+#     "DAL", "UAL", "AAL", "TSM", "SONY", "ET", "NOK", "MRO", "COIN", "SIRI",
+#     "RIOT", "CPRX", "VWO", "SPYG", "ROKU", "VIAC", "ATVI", "BIDU", "DOCU", "ZM",
+#     "PINS", "TLRY", "WBA", "MGM", "NIO", "C", "GS", "WFC", "ADBE", "PEP",
+#     "UNH", "CARR", "FUBO", "HCA", "TWTR", "BILI", "RKT"
+# ]
+
+
+with open("data/stock-forum.stocks.json", "r") as f:
+    tickers = [stock["symbol"] for stock in json.load(f)]
 
 def recalculate_and_save_boundaries():
     """Fetch data, calculate boundaries, and save them"""
@@ -25,12 +30,12 @@ def recalculate_and_save_boundaries():
     save_metric_boundaries(boundaries)
     return df, boundaries
 
-def calculate_indexes_demo(num_companies=5):
+def calculate_indexes_demo(num_companies=len(tickers)):
     """Calculate indexes for a subset of companies"""
 
     boundaries = load_metric_boundaries()
     
-    subset_tickers = tickers[:num_companies]
+    subset_tickers = tickers
     companies = fetch_and_create_companies(subset_tickers)
     companies_df = extract_all_metrics_dataframe(companies)
     
@@ -87,7 +92,6 @@ def calculate_and_save_all_company_indexes(output_file="company_financial_indexe
             companies = fetch_and_create_companies(batch_tickers)
             companies_df = extract_all_metrics_dataframe(companies)
             all_company_data.append(companies_df)
-            time.sleep(2)
         except Exception as e:
             print(f"Error processing batch: {e}")
     
@@ -101,6 +105,7 @@ def calculate_and_save_all_company_indexes(output_file="company_financial_indexe
 
         print("\nTop 10 companies by financial index:")
         top_companies = indexes_df.sort_values('index_score', ascending=False).head(10)
+        
         print(top_companies)
         
         return indexes_df
@@ -112,7 +117,7 @@ if __name__ == "__main__":
     # Uncomment the analysis you want to run
     
     # Recalculate boundaries from scratch
-    # recalculate_and_save_boundaries()
+    recalculate_and_save_boundaries()
     
     # Calculate indexes for 5 companies
     # calculate_indexes_demo(num_companies=5)
