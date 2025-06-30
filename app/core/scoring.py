@@ -1,6 +1,14 @@
+"""
+Core scoring functions for financial index calculations.
+
+This module contains pure scoring functions that operate on DataFrames
+and are decoupled from data sourcing.
+"""
+
 import numpy as np
 import pandas as pd
 
+# Pillar weights configuration
 PILLAR_WEIGHTS = {
     'Profitability': 0.25,
     'Liquidity': 0.20,
@@ -11,6 +19,7 @@ PILLAR_WEIGHTS = {
     'PerShareFundamentals': 0.05
 }
 
+# Metric weights configuration by pillar
 METRIC_WEIGHTS = {
     'Profitability': {
         'returnOnInvestedCapitalTTM': 0.25,
@@ -59,6 +68,7 @@ METRIC_WEIGHTS = {
     }
 }
 
+# Metrics where lower values are better
 INVERSE_METRICS = [
     'capexToOperatingCashFlowTTM', 'capexToDepreciationTTM', 'capexToRevenueTTM',
     'stockBasedCompensationToRevenueTTM', 'intangiblesToTotalAssetsTTM',
@@ -67,6 +77,7 @@ INVERSE_METRICS = [
     'daysOfInventoryOutstandingTTM', 'daysOfSalesOutstandingTTM',
     'salesGeneralAndAdministrativeToRevenueTTM'
 ]
+
 
 def normalize_metric(value, min_val, max_val, is_inverse=False):
     """
@@ -99,6 +110,7 @@ def normalize_metric(value, min_val, max_val, is_inverse=False):
         
     return normalized
 
+
 def calculate_pillar_score(company_data, boundaries, pillar_name, metrics_weights):
     """
     Calculate score for a single pillar (category) of metrics.
@@ -128,6 +140,7 @@ def calculate_pillar_score(company_data, boundaries, pillar_name, metrics_weight
             total_weight += weight
 
     return pillar_score / total_weight if total_weight > 0 else 0.0
+
 
 def calculate_company_index(company_data, boundaries, pillar_weights=PILLAR_WEIGHTS, metric_weights=METRIC_WEIGHTS):
     """
@@ -166,6 +179,7 @@ def calculate_company_index(company_data, boundaries, pillar_weights=PILLAR_WEIG
         'pillar_scores': pillar_scores
     }
 
+
 def calculate_all_companies_indexes(companies_data, boundaries):
     """
     Calculate financial indexes for multiple companies.
@@ -191,4 +205,4 @@ def calculate_all_companies_indexes(companies_data, boundaries):
         except Exception as e:
             print(f"Error calculating index for {ticker}: {e}")
 
-    return pd.DataFrame(results)
+    return pd.DataFrame(results) 

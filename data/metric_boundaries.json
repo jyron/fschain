@@ -1,270 +1,270 @@
 {
-    "returnOnAssetsTTM": [
-        0.009886467272491492,
-        0.16979792559519535
-    ],
-    "operatingReturnOnAssetsTTM": [
-        0.017999752338439173,
-        0.21423486781188233
-    ],
-    "returnOnTangibleAssetsTTM": [
-        0.010423003414771146,
-        0.2516458562925278
-    ],
-    "returnOnEquityTTM": [
-        -0.0013600365963353281,
-        0.4911056200418862
-    ],
-    "returnOnInvestedCapitalTTM": [
-        0.025215106985900588,
-        0.23226256547119553
-    ],
-    "returnOnCapitalEmployedTTM": [
-        0.02953472180215358,
-        0.2985668662732558
-    ],
-    "capexToOperatingCashFlowTTM": [
-        0.02220965722294996,
-        0.8707126878333048
-    ],
-    "capexToDepreciationTTM": [
-        0.1303591298313962,
-        2.1666895919303073
-    ],
-    "capexToRevenueTTM": [
-        0.00535557852340846,
-        0.19912767591523137
-    ],
-    "salesGeneralAndAdministrativeToRevenueTTM": [
-        0.0,
-        0.1638876618986099
-    ],
-    "researchAndDevelopementToRevenueTTM": [
-        0.0,
-        0.14451495501982067
-    ],
-    "stockBasedCompensationToRevenueTTM": [
-        0.0,
-        0.04553928464180165
-    ],
-    "intangiblesToTotalAssetsTTM": [
-        0.0,
-        0.6119479657415564
-    ],
-    "workingCapitalTTM": [
-        -5265699999.999997,
-        9457100000.000011
-    ],
-    "investedCapitalTTM": [
-        1249447600.0,
-        69082100000.0
-    ],
-    "netCurrentAssetValueTTM": [
-        -78507557299.99998,
-        946231200.0000025
-    ],
-    "tangibleAssetValueTTM": [
-        -10237600000.0,
-        27381650000.000015
-    ],
-    "daysOfSalesOutstandingTTM": [
-        7.593368443879891,
-        114.75933841818572
-    ],
-    "daysOfPayablesOutstandingTTM": [
-        0.0,
-        127.79219635415899
-    ],
-    "daysOfInventoryOutstandingTTM": [
-        0.0,
-        151.29734278882577
-    ],
-    "operatingCycleTTM": [
-        27.392819493513034,
-        245.84517728473375
-    ],
-    "cashConversionCycleTTM": [
-        -33.46305393027492,
-        188.85527904151724
-    ],
-    "grossProfitMarginTTM": [
-        0.19512965125475001,
-        0.800096877927359
-    ],
-    "operatingProfitMarginTTM": [
-        0.040943317612193074,
-        0.36363211612646046
-    ],
-    "ebitMarginTTM": [
-        0.04083106294802481,
-        0.3562750645322967
-    ],
-    "ebitdaMarginTTM": [
-        0.0704982155603256,
-        0.4987328854910444
-    ],
-    "pretaxProfitMarginTTM": [
-        0.03190052637660569,
-        0.317347045687749
-    ],
-    "netProfitMarginTTM": [
-        0.02360660355228681,
-        0.27077849508213936
-    ],
-    "bottomLineProfitMarginTTM": [
-        -0.0022766318607892765,
-        0.24746561747330487
-    ],
-    "continuousOperationsProfitMarginTTM": [
-        0.02360660355228681,
-        0.2718672809253623
-    ],
-    "operatingCashFlowRatioTTM": [
-        0.056534136626579974,
-        1.4455841401576952
-    ],
-    "operatingCashFlowSalesRatioTTM": [
-        0.05424425563597448,
-        0.4104711687553279
-    ],
-    "freeCashFlowOperatingCashFlowRatioTTM": [
-        0.12792481756019078,
-        0.9770928590962019
-    ],
-    "capitalExpenditureCoverageRatioTTM": [
-        0.7841809873567084,
-        18.702774742184207
-    ],
-    "dividendPaidAndCapexCoverageRatioTTM": [
-        0.723642985569349,
-        7.396703512160803
-    ],
-    "operatingCashFlowCoverageRatioTTM": [
-        0.09831686515159396,
-        1.4238775788441482
-    ],
-    "shortTermOperatingCashFlowCoverageRatioTTM": [
-        0.0,
-        30.20295484879383
-    ],
-    "receivablesTurnoverTTM": [
-        1.6185106678466772,
-        16.17808106768178
-    ],
-    "payablesTurnoverTTM": [
-        0.0,
-        17.381940111618594
-    ],
-    "inventoryTurnoverTTM": [
-        0.0,
-        17.984194001980704
-    ],
-    "fixedAssetTurnoverTTM": [
-        0.29469060838151184,
-        15.921656143165855
-    ],
-    "assetTurnoverTTM": [
-        0.14775733989953108,
-        1.3014857169896792
-    ],
-    "workingCapitalTurnoverRatioTTM": [
-        -15.686407232081384,
-        26.04112186146522
-    ],
-    "currentRatioTTM": [
-        0.4171821997885835,
-        3.1034971432400575
-    ],
-    "quickRatioTTM": [
-        0.29185858252931424,
-        2.4964624374398996
-    ],
-    "cashRatioTTM": [
-        0.027407684208305447,
-        0.9840292143919033
-    ],
-    "debtToEquityRatioTTM": [
-        0.01173203661122942,
-        2.5744895390388702
-    ],
-    "debtToAssetsRatioTTM": [
-        0.0399378363162897,
-        0.5482143913070333
-    ],
-    "debtToCapitalRatioTTM": [
-        0.10283431599784361,
-        0.8359185700489513
-    ],
-    "longTermDebtToCapitalRatioTTM": [
-        0.0,
-        0.7760178668534685
-    ],
-    "financialLeverageRatioTTM": [
-        1.2960453188929317,
-        8.643226784768219
-    ],
-    "solvencyRatioTTM": [
-        0.0285956622225445,
-        0.4115151271254631
-    ],
-    "debtServiceCoverageRatioTTM": [
-        0.3614258283958746,
-        20.79412955465588
-    ],
-    "interestCoverageRatioTTM": [
-        0.0,
-        31.159666672027367
-    ],
-    "revenuePerShareTTM": [
-        12.276885462454963,
-        165.91909356585978
-    ],
-    "netIncomePerShareTTM": [
-        0.8564087555231491,
-        14.98597932107045
-    ],
-    "cashPerShareTTM": [
-        0.5366795532509482,
-        31.940248919164542
-    ],
-    "bookValuePerShareTTM": [
-        4.254840171376156,
-        86.5202026608789
-    ],
-    "tangibleBookValuePerShareTTM": [
-        -24.556581366135337,
-        60.33325751462637
-    ],
-    "shareholdersEquityPerShareTTM": [
-        3.9272396581888596,
-        84.43659539968507
-    ],
-    "operatingCashFlowPerShareTTM": [
-        2.1332322519981197,
-        22.258956671926306
-    ],
-    "capexPerShareTTM": [
-        0.1971783208552397,
-        9.146670192784208
-    ],
-    "freeCashFlowPerShareTTM": [
-        -0.08723172836613709,
-        17.75794825037645
-    ],
-    "interestDebtPerShareTTM": [
-        3.2454285665269706,
-        91.14558233482038
-    ],
-    "effectiveTaxRateTTM": [
-        0.007629346501123416,
-        0.2769368759741848
-    ],
-    "netIncomePerEBTTTM": [
-        0.6820843028299188,
-        0.991476046797806
-    ],
-    "ebtPerEbitTTM": [
-        0.5827621669698523,
-        1.1346820204166117
-    ]
+  "returnOnAssetsTTM": [
+    0.009886467272491492,
+    0.16979792559519535
+  ],
+  "operatingReturnOnAssetsTTM": [
+    0.017999752338439173,
+    0.21423486781188233
+  ],
+  "returnOnTangibleAssetsTTM": [
+    0.010423003414771146,
+    0.2516458562925278
+  ],
+  "returnOnEquityTTM": [
+    -0.0013600365963353281,
+    0.4911056200418862
+  ],
+  "returnOnInvestedCapitalTTM": [
+    0.025215106985900588,
+    0.23226256547119553
+  ],
+  "returnOnCapitalEmployedTTM": [
+    0.02953472180215358,
+    0.2985668662732558
+  ],
+  "capexToOperatingCashFlowTTM": [
+    0.02220965722294996,
+    0.8707126878333048
+  ],
+  "capexToDepreciationTTM": [
+    0.13034738201462348,
+    2.1666895919303073
+  ],
+  "capexToRevenueTTM": [
+    0.00535557852340846,
+    0.19912767591523137
+  ],
+  "salesGeneralAndAdministrativeToRevenueTTM": [
+    0.0,
+    0.16850561737321818
+  ],
+  "researchAndDevelopementToRevenueTTM": [
+    0.0,
+    0.14451495501982067
+  ],
+  "stockBasedCompensationToRevenueTTM": [
+    0.0,
+    0.04553928464180165
+  ],
+  "intangiblesToTotalAssetsTTM": [
+    0.0,
+    0.6119479657415564
+  ],
+  "workingCapitalTTM": [
+    -5265699999.999997,
+    9457100000.000011
+  ],
+  "investedCapitalTTM": [
+    1249447600.0,
+    69082100000.0
+  ],
+  "netCurrentAssetValueTTM": [
+    -78507557299.99998,
+    946231200.0000025
+  ],
+  "tangibleAssetValueTTM": [
+    -10237600000.0,
+    27381650000.000015
+  ],
+  "daysOfSalesOutstandingTTM": [
+    7.593368443879891,
+    114.75933841818572
+  ],
+  "daysOfPayablesOutstandingTTM": [
+    0.0,
+    127.79219635415899
+  ],
+  "daysOfInventoryOutstandingTTM": [
+    0.0,
+    151.29734278882577
+  ],
+  "operatingCycleTTM": [
+    27.392819493513034,
+    245.84517728473375
+  ],
+  "cashConversionCycleTTM": [
+    -33.46305393027492,
+    188.85527904151724
+  ],
+  "grossProfitMarginTTM": [
+    0.19512965125475001,
+    0.800096877927359
+  ],
+  "operatingProfitMarginTTM": [
+    0.040943317612193074,
+    0.36363211612646046
+  ],
+  "ebitMarginTTM": [
+    0.04083106294802481,
+    0.3562750645322967
+  ],
+  "ebitdaMarginTTM": [
+    0.07167279426889538,
+    0.4987328854910444
+  ],
+  "pretaxProfitMarginTTM": [
+    0.03190052637660569,
+    0.317347045687749
+  ],
+  "netProfitMarginTTM": [
+    0.02360660355228681,
+    0.27077849508213936
+  ],
+  "bottomLineProfitMarginTTM": [
+    -0.0022766318607892765,
+    0.24746561747330487
+  ],
+  "continuousOperationsProfitMarginTTM": [
+    0.023314131304751035,
+    0.2718672809253623
+  ],
+  "operatingCashFlowRatioTTM": [
+    0.056534136626579974,
+    1.4455841401576952
+  ],
+  "operatingCashFlowSalesRatioTTM": [
+    0.05424425563597448,
+    0.4104711687553279
+  ],
+  "freeCashFlowOperatingCashFlowRatioTTM": [
+    0.12792481756019078,
+    0.9770928590962019
+  ],
+  "capitalExpenditureCoverageRatioTTM": [
+    0.7841809873567084,
+    18.702774742184207
+  ],
+  "dividendPaidAndCapexCoverageRatioTTM": [
+    0.723642985569349,
+    7.396703512160803
+  ],
+  "operatingCashFlowCoverageRatioTTM": [
+    0.09831686515159396,
+    1.4238775788441482
+  ],
+  "shortTermOperatingCashFlowCoverageRatioTTM": [
+    0.0,
+    30.20295484879383
+  ],
+  "receivablesTurnoverTTM": [
+    1.6185106678466772,
+    16.17808106768178
+  ],
+  "payablesTurnoverTTM": [
+    0.0,
+    17.381940111618594
+  ],
+  "inventoryTurnoverTTM": [
+    0.0,
+    17.984194001980704
+  ],
+  "fixedAssetTurnoverTTM": [
+    0.29469060838151184,
+    15.921656143165855
+  ],
+  "assetTurnoverTTM": [
+    0.14775733989953108,
+    1.3014857169896792
+  ],
+  "workingCapitalTurnoverRatioTTM": [
+    -15.686407232081384,
+    26.04112186146522
+  ],
+  "currentRatioTTM": [
+    0.4171821997885835,
+    3.1034971432400575
+  ],
+  "quickRatioTTM": [
+    0.29185858252931424,
+    2.4964624374398996
+  ],
+  "cashRatioTTM": [
+    0.027402844017574274,
+    0.9840292143919033
+  ],
+  "debtToEquityRatioTTM": [
+    0.01173203661122942,
+    2.5744895390388702
+  ],
+  "debtToAssetsRatioTTM": [
+    0.0399378363162897,
+    0.5482143913070333
+  ],
+  "debtToCapitalRatioTTM": [
+    0.10283431599784361,
+    0.8359185700489513
+  ],
+  "longTermDebtToCapitalRatioTTM": [
+    0.0,
+    0.7760178668534685
+  ],
+  "financialLeverageRatioTTM": [
+    1.2960453188929317,
+    8.643226784768219
+  ],
+  "solvencyRatioTTM": [
+    0.0285956622225445,
+    0.4115151271254631
+  ],
+  "debtServiceCoverageRatioTTM": [
+    0.3614258283958746,
+    20.79412955465588
+  ],
+  "interestCoverageRatioTTM": [
+    0.0,
+    31.159666672027367
+  ],
+  "revenuePerShareTTM": [
+    12.276885462454963,
+    165.91909356585978
+  ],
+  "netIncomePerShareTTM": [
+    0.8564087555231491,
+    14.98597932107045
+  ],
+  "cashPerShareTTM": [
+    0.5366795532509482,
+    31.940248919164542
+  ],
+  "bookValuePerShareTTM": [
+    4.254840171376156,
+    86.5202026608789
+  ],
+  "tangibleBookValuePerShareTTM": [
+    -24.556581366135337,
+    60.53056521499044
+  ],
+  "shareholdersEquityPerShareTTM": [
+    3.9272396581888596,
+    84.43659539968507
+  ],
+  "operatingCashFlowPerShareTTM": [
+    2.1332322519981197,
+    22.258956671926306
+  ],
+  "capexPerShareTTM": [
+    0.1971783208552397,
+    9.146670192784208
+  ],
+  "freeCashFlowPerShareTTM": [
+    -0.08723172836613709,
+    17.75794825037645
+  ],
+  "interestDebtPerShareTTM": [
+    3.2454285665269706,
+    91.14558233482038
+  ],
+  "effectiveTaxRateTTM": [
+    0.007629346501123416,
+    0.2769368759741848
+  ],
+  "netIncomePerEBTTTM": [
+    0.6820843028299188,
+    0.9929565826908409
+  ],
+  "ebtPerEbitTTM": [
+    0.5827621669698523,
+    1.1346820204166117
+  ]
 }
