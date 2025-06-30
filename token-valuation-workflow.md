@@ -3,7 +3,7 @@
 <!--
 This document describes the complete workflow for taking a single company
 and creating two SEPARATE token valuations: F-Token (Financial) and S-Token (Sentiment).
-The key principle is SEPARATION - these are independent valuations, not combined.
+The key principle is SEPARATION, these are independent valuations, not combined.
 -->
 
 ## Overview

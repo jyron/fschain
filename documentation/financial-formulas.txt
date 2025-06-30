@@ -6,9 +6,9 @@ Here is the approach. Core principles, followed by detailed methodology.
 # Core Principles
 
 1. Self-contained calculations using only publicly available data
-2. Clear boundaries that anyone can understand
+2. Clear min/max boundaries
 3. Repeatable methodology without subjective input
-4. Transparent weighting that makes intuitive sense
+4. Transparent weighting
 
 # Boundary Method
 
@@ -33,4 +33,3 @@ This means that governance allows users to vote on how important each attribute 
 - Stability (30%)
 - Growth/Revenue (20%)
 - Efficiency (20%)
-

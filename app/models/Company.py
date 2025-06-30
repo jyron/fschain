@@ -1,6 +1,6 @@
 from typing import Optional
 from pydantic import BaseModel
-from app.models.FinancialModel import CompanyFinancialMetrics
+from app.models.financial_models import CompanyFinancialMetrics
 
 
 class Company(BaseModel):

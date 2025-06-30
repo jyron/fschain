@@ -1,0 +1,3002 @@
+[
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f861"
+    },
+    "symbol": "AAPL"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f862"
+    },
+    "symbol": "META"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f863"
+    },
+    "symbol": "AMZN"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f865"
+    },
+    "symbol": "GOOGL"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f866"
+    },
+    "symbol": "TSLA"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f867"
+    },
+    "symbol": "MSFT"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f868"
+    },
+    "symbol": "NVDA"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f869"
+    },
+    "symbol": "JNJ"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f86a"
+    },
+    "symbol": "UNH"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f86b"
+    },
+    "symbol": "PG"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f86c"
+    },
+    "symbol": "V"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f86d"
+    },
+    "symbol": "JPM"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f86e"
+    },
+    "symbol": "XOM"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f86f"
+    },
+    "symbol": "HD"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f871"
+    },
+    "symbol": "AVGO"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f872"
+    },
+    "symbol": "COST"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f873"
+    },
+    "symbol": "MA"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f874"
+    },
+    "symbol": "DIS"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f875"
+    },
+    "symbol": "BAC"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f876"
+    },
+    "symbol": "PFE"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f877"
+    },
+    "symbol": "CVX"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f878"
+    },
+    "symbol": "ABBV"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f879"
+    },
+    "symbol": "KO"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f87a"
+    },
+    "symbol": "CRM"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f87b"
+    },
+    "symbol": "LLY"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f87c"
+    },
+    "symbol": "MRK"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f87d"
+    },
+    "symbol": "CSCO"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f87e"
+    },
+    "symbol": "PEP"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f87f"
+    },
+    "symbol": "ADBE"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f880"
+    },
+    "symbol": "WMT"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f881"
+    },
+    "symbol": "DHR"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f882"
+    },
+    "symbol": "MCD"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f883"
+    },
+    "symbol": "NKE"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f884"
+    },
+    "symbol": "ORCL"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f885"
+    },
+    "symbol": "ABT"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f886"
+    },
+    "symbol": "TMO"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f887"
+    },
+    "symbol": "CMCSA"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f888"
+    },
+    "symbol": "ACN"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f889"
+    },
+    "symbol": "TXN"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f88a"
+    },
+    "symbol": "AMD"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f88b"
+    },
+    "symbol": "INTC"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f88c"
+    },
+    "symbol": "VZ"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f88d"
+    },
+    "symbol": "QCOM"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f88e"
+    },
+    "symbol": "PM"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f88f"
+    },
+    "symbol": "NEE"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f890"
+    },
+    "symbol": "WFC"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f891"
+    },
+    "symbol": "AMGN"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f892"
+    },
+    "symbol": "BMY"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f893"
+    },
+    "symbol": "UNP"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f894"
+    },
+    "symbol": "IBM"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f895"
+    },
+    "symbol": "COP"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f896"
+    },
+    "symbol": "LOW"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f897"
+    },
+    "symbol": "UPS"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f898"
+    },
+    "symbol": "HON"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f899"
+    },
+    "symbol": "APD"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f89a"
+    },
+    "symbol": "MMM"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f89b"
+    },
+    "symbol": "AES"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f89c"
+    },
+    "symbol": "AFL"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f89d"
+    },
+    "symbol": "AOS"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f89e"
+    },
+    "symbol": "ABNB"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f89f"
+    },
+    "symbol": "AKAM"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8a0"
+    },
+    "symbol": "A"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8a1"
+    },
+    "symbol": "ALLE"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8a2"
+    },
+    "symbol": "LNT"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8a3"
+    },
+    "symbol": "MO"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8a4"
+    },
+    "symbol": "AMCR"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8a5"
+    },
+    "symbol": "ALGN"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8a6"
+    },
+    "symbol": "ALB"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8a7"
+    },
+    "symbol": "ALL"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8a8"
+    },
+    "symbol": "ARE"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8a9"
+    },
+    "symbol": "AME"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8aa"
+    },
+    "symbol": "AMT"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8ab"
+    },
+    "symbol": "AIG"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8ac"
+    },
+    "symbol": "AXP"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8ad"
+    },
+    "symbol": "AEP"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8ae"
+    },
+    "symbol": "AMP"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8af"
+    },
+    "symbol": "AEE"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8b0"
+    },
+    "symbol": "AWK"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8b1"
+    },
+    "symbol": "APO"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8b2"
+    },
+    "symbol": "APA"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8b3"
+    },
+    "symbol": "ANSS"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8b4"
+    },
+    "symbol": "APH"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8b5"
+    },
+    "symbol": "AMAT"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8b6"
+    },
+    "symbol": "APTV"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8b7"
+    },
+    "symbol": "AON"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8b8"
+    },
+    "symbol": "ADI"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8b9"
+    },
+    "symbol": "ACGL"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8ba"
+    },
+    "symbol": "AIZ"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8bb"
+    },
+    "symbol": "ATO"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8bc"
+    },
+    "symbol": "ADM"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8bd"
+    },
+    "symbol": "ANET"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8be"
+    },
+    "symbol": "AJG"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8bf"
+    },
+    "symbol": "T"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8c0"
+    },
+    "symbol": "ADSK"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8c1"
+    },
+    "symbol": "ADP"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8c2"
+    },
+    "symbol": "AZO"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8c3"
+    },
+    "symbol": "AVB"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8c4"
+    },
+    "symbol": "AXON"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8c5"
+    },
+    "symbol": "AVY"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8c6"
+    },
+    "symbol": "BALL"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8c7"
+    },
+    "symbol": "BKR"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8c8"
+    },
+    "symbol": "BAX"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8c9"
+    },
+    "symbol": "BLK"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8ca"
+    },
+    "symbol": "BIIB"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8cb"
+    },
+    "symbol": "BK"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8cc"
+    },
+    "symbol": "BX"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8cd"
+    },
+    "symbol": "TECH"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8ce"
+    },
+    "symbol": "BDX"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8cf"
+    },
+    "symbol": "BBY"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8d0"
+    },
+    "symbol": "BA"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8d1"
+    },
+    "symbol": "BXP"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8d2"
+    },
+    "symbol": "BR"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8d3"
+    },
+    "symbol": "BG"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8d4"
+    },
+    "symbol": "BLDR"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8d5"
+    },
+    "symbol": "BRO"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8d7"
+    },
+    "symbol": "BKNG"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8d8"
+    },
+    "symbol": "BSX"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8d9"
+    },
+    "symbol": "KMX"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8da"
+    },
+    "symbol": "CDNS"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8db"
+    },
+    "symbol": "COF"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8dc"
+    },
+    "symbol": "CPB"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8dd"
+    },
+    "symbol": "CPT"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8de"
+    },
+    "symbol": "CZR"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8df"
+    },
+    "symbol": "CAH"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8e0"
+    },
+    "symbol": "CHRW"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8e1"
+    },
+    "symbol": "CAT"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8e2"
+    },
+    "symbol": "CNC"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8e3"
+    },
+    "symbol": "CBOE"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8e4"
+    },
+    "symbol": "CBRE"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8e5"
+    },
+    "symbol": "CDW"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8e6"
+    },
+    "symbol": "COR"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8e7"
+    },
+    "symbol": "CARR"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8e8"
+    },
+    "symbol": "CCL"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8e9"
+    },
+    "symbol": "CRL"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8ea"
+    },
+    "symbol": "CNP"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8eb"
+    },
+    "symbol": "SCHW"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8ec"
+    },
+    "symbol": "CMG"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8ed"
+    },
+    "symbol": "CB"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8ee"
+    },
+    "symbol": "CHTR"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8ef"
+    },
+    "symbol": "CHD"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8f0"
+    },
+    "symbol": "CF"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8f1"
+    },
+    "symbol": "CFG"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8f2"
+    },
+    "symbol": "CTAS"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8f3"
+    },
+    "symbol": "C"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8f4"
+    },
+    "symbol": "CI"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8f5"
+    },
+    "symbol": "CMS"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8f6"
+    },
+    "symbol": "CINF"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8f7"
+    },
+    "symbol": "CLX"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8f8"
+    },
+    "symbol": "CME"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8f9"
+    },
+    "symbol": "COIN"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8fa"
+    },
+    "symbol": "CL"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8fb"
+    },
+    "symbol": "CEG"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8fc"
+    },
+    "symbol": "CTSH"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8fd"
+    },
+    "symbol": "ED"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8fe"
+    },
+    "symbol": "STZ"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f8ff"
+    },
+    "symbol": "COO"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f900"
+    },
+    "symbol": "CAG"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f901"
+    },
+    "symbol": "CPAY"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f902"
+    },
+    "symbol": "CSGP"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f903"
+    },
+    "symbol": "CRWD"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f904"
+    },
+    "symbol": "CTVA"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f905"
+    },
+    "symbol": "CTRA"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f906"
+    },
+    "symbol": "GLW"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f907"
+    },
+    "symbol": "CPRT"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f908"
+    },
+    "symbol": "CCI"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f909"
+    },
+    "symbol": "CVS"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f90a"
+    },
+    "symbol": "DVA"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f90b"
+    },
+    "symbol": "CMI"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f90c"
+    },
+    "symbol": "DE"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f90d"
+    },
+    "symbol": "DECK"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f90e"
+    },
+    "symbol": "CSX"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f90f"
+    },
+    "symbol": "DAY"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f910"
+    },
+    "symbol": "DRI"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f911"
+    },
+    "symbol": "DLR"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f912"
+    },
+    "symbol": "DXCM"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f913"
+    },
+    "symbol": "DVN"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f914"
+    },
+    "symbol": "FANG"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f915"
+    },
+    "symbol": "DAL"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f916"
+    },
+    "symbol": "DG"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f917"
+    },
+    "symbol": "DLTR"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f918"
+    },
+    "symbol": "DELL"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f919"
+    },
+    "symbol": "DASH"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f91a"
+    },
+    "symbol": "DOV"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f91b"
+    },
+    "symbol": "DPZ"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f91c"
+    },
+    "symbol": "DOW"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f91d"
+    },
+    "symbol": "DUK"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f91e"
+    },
+    "symbol": "DTE"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f91f"
+    },
+    "symbol": "DHI"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f920"
+    },
+    "symbol": "D"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f921"
+    },
+    "symbol": "EW"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f922"
+    },
+    "symbol": "DD"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f923"
+    },
+    "symbol": "EMN"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f924"
+    },
+    "symbol": "EIX"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f925"
+    },
+    "symbol": "ECL"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f926"
+    },
+    "symbol": "EA"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f927"
+    },
+    "symbol": "EBAY"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f928"
+    },
+    "symbol": "ETN"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f929"
+    },
+    "symbol": "EMR"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f92a"
+    },
+    "symbol": "ETR"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f92b"
+    },
+    "symbol": "EQT"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f92c"
+    },
+    "symbol": "ENPH"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f92d"
+    },
+    "symbol": "EPAM"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f92e"
+    },
+    "symbol": "EFX"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f92f"
+    },
+    "symbol": "ELV"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f930"
+    },
+    "symbol": "EOG"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f931"
+    },
+    "symbol": "EL"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f932"
+    },
+    "symbol": "ESS"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f933"
+    },
+    "symbol": "EVRG"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f934"
+    },
+    "symbol": "EG"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f935"
+    },
+    "symbol": "EQIX"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f936"
+    },
+    "symbol": "ERIE"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f937"
+    },
+    "symbol": "ES"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f938"
+    },
+    "symbol": "EQR"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f939"
+    },
+    "symbol": "EXPE"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f93a"
+    },
+    "symbol": "EXC"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f93b"
+    },
+    "symbol": "FFIV"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f93c"
+    },
+    "symbol": "FDS"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f93d"
+    },
+    "symbol": "EXR"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f93e"
+    },
+    "symbol": "FICO"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f93f"
+    },
+    "symbol": "EXPD"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f940"
+    },
+    "symbol": "EXE"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f941"
+    },
+    "symbol": "FSLR"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f942"
+    },
+    "symbol": "FDX"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f943"
+    },
+    "symbol": "FIS"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f944"
+    },
+    "symbol": "FAST"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f945"
+    },
+    "symbol": "FITB"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f946"
+    },
+    "symbol": "FRT"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f947"
+    },
+    "symbol": "FI"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f948"
+    },
+    "symbol": "FE"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f949"
+    },
+    "symbol": "GRMN"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f94a"
+    },
+    "symbol": "BEN"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f94b"
+    },
+    "symbol": "FCX"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f94c"
+    },
+    "symbol": "FOX"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f94d"
+    },
+    "symbol": "FTNT"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f94e"
+    },
+    "symbol": "FTV"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f94f"
+    },
+    "symbol": "FOXA"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f950"
+    },
+    "symbol": "F"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f951"
+    },
+    "symbol": "IT"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f952"
+    },
+    "symbol": "GEHC"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f953"
+    },
+    "symbol": "GEN"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f954"
+    },
+    "symbol": "GNRC"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f955"
+    },
+    "symbol": "GEV"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f956"
+    },
+    "symbol": "GE"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f957"
+    },
+    "symbol": "GIS"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f958"
+    },
+    "symbol": "GD"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f959"
+    },
+    "symbol": "GM"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f95a"
+    },
+    "symbol": "GL"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f95b"
+    },
+    "symbol": "GDDY"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f95c"
+    },
+    "symbol": "GS"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f95d"
+    },
+    "symbol": "GPC"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f95e"
+    },
+    "symbol": "GILD"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f95f"
+    },
+    "symbol": "GPN"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f960"
+    },
+    "symbol": "HAL"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f961"
+    },
+    "symbol": "HSIC"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f962"
+    },
+    "symbol": "HCA"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f963"
+    },
+    "symbol": "HSY"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f964"
+    },
+    "symbol": "HIG"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f965"
+    },
+    "symbol": "HPE"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f966"
+    },
+    "symbol": "HES"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f967"
+    },
+    "symbol": "DOC"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f968"
+    },
+    "symbol": "HAS"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f969"
+    },
+    "symbol": "HLT"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f96a"
+    },
+    "symbol": "HUBB"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f96b"
+    },
+    "symbol": "HRL"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f96c"
+    },
+    "symbol": "HOLX"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f96d"
+    },
+    "symbol": "HST"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f96e"
+    },
+    "symbol": "HWM"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f96f"
+    },
+    "symbol": "HUM"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f970"
+    },
+    "symbol": "HPQ"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f971"
+    },
+    "symbol": "HBAN"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f972"
+    },
+    "symbol": "PODD"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f973"
+    },
+    "symbol": "HII"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f974"
+    },
+    "symbol": "IR"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f975"
+    },
+    "symbol": "ITW"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f976"
+    },
+    "symbol": "INCY"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f977"
+    },
+    "symbol": "IEX"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f978"
+    },
+    "symbol": "IDXX"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f979"
+    },
+    "symbol": "ICE"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f97a"
+    },
+    "symbol": "IFF"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f97b"
+    },
+    "symbol": "IPG"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f97c"
+    },
+    "symbol": "INTU"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f97d"
+    },
+    "symbol": "IVZ"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f97e"
+    },
+    "symbol": "IP"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f97f"
+    },
+    "symbol": "INVH"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f980"
+    },
+    "symbol": "ISRG"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f981"
+    },
+    "symbol": "JCI"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f982"
+    },
+    "symbol": "JBHT"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f983"
+    },
+    "symbol": "JKHY"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f984"
+    },
+    "symbol": "J"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f985"
+    },
+    "symbol": "IRM"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f986"
+    },
+    "symbol": "JBL"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f987"
+    },
+    "symbol": "IQV"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f988"
+    },
+    "symbol": "JNPR"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f989"
+    },
+    "symbol": "KDP"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f98a"
+    },
+    "symbol": "KEYS"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f98b"
+    },
+    "symbol": "KMB"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f98c"
+    },
+    "symbol": "KEY"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f98d"
+    },
+    "symbol": "KIM"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f98e"
+    },
+    "symbol": "K"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f98f"
+    },
+    "symbol": "KVUE"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f990"
+    },
+    "symbol": "KMI"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f991"
+    },
+    "symbol": "LW"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f992"
+    },
+    "symbol": "LH"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f993"
+    },
+    "symbol": "KKR"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f994"
+    },
+    "symbol": "LHX"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f995"
+    },
+    "symbol": "KLAC"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f996"
+    },
+    "symbol": "KHC"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f997"
+    },
+    "symbol": "KR"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f998"
+    },
+    "symbol": "LRCX"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f999"
+    },
+    "symbol": "LVS"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f99a"
+    },
+    "symbol": "LMT"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f99b"
+    },
+    "symbol": "LII"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f99c"
+    },
+    "symbol": "LIN"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f99d"
+    },
+    "symbol": "LEN"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f99e"
+    },
+    "symbol": "LDOS"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f99f"
+    },
+    "symbol": "LYV"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9a0"
+    },
+    "symbol": "LKQ"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9a1"
+    },
+    "symbol": "MAR"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9a2"
+    },
+    "symbol": "MPC"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9a3"
+    },
+    "symbol": "MKTX"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9a4"
+    },
+    "symbol": "MTB"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9a5"
+    },
+    "symbol": "LYB"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9a6"
+    },
+    "symbol": "MMC"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9a7"
+    },
+    "symbol": "LULU"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9a8"
+    },
+    "symbol": "L"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9a9"
+    },
+    "symbol": "MDT"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9aa"
+    },
+    "symbol": "MCK"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9ab"
+    },
+    "symbol": "MAS"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9ac"
+    },
+    "symbol": "MTCH"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9ad"
+    },
+    "symbol": "MTD"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9ae"
+    },
+    "symbol": "MLM"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9af"
+    },
+    "symbol": "MET"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9b0"
+    },
+    "symbol": "MKC"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9b1"
+    },
+    "symbol": "MAA"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9b2"
+    },
+    "symbol": "MU"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9b3"
+    },
+    "symbol": "MGM"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9b4"
+    },
+    "symbol": "MOH"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9b5"
+    },
+    "symbol": "MHK"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9b6"
+    },
+    "symbol": "MRNA"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9b7"
+    },
+    "symbol": "MCHP"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9b8"
+    },
+    "symbol": "TAP"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9b9"
+    },
+    "symbol": "MS"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9ba"
+    },
+    "symbol": "MCO"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9bb"
+    },
+    "symbol": "MNST"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9bc"
+    },
+    "symbol": "MSI"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9bd"
+    },
+    "symbol": "MDLZ"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9be"
+    },
+    "symbol": "MSCI"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9bf"
+    },
+    "symbol": "MOS"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9c0"
+    },
+    "symbol": "MPWR"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9c1"
+    },
+    "symbol": "NTAP"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9c2"
+    },
+    "symbol": "NFLX"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9c3"
+    },
+    "symbol": "NDAQ"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9c4"
+    },
+    "symbol": "NI"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9c5"
+    },
+    "symbol": "NEM"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9c6"
+    },
+    "symbol": "NWS"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9c7"
+    },
+    "symbol": "NWSA"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9c8"
+    },
+    "symbol": "NDSN"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9c9"
+    },
+    "symbol": "NSC"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9ca"
+    },
+    "symbol": "NXPI"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9cb"
+    },
+    "symbol": "NVR"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9cc"
+    },
+    "symbol": "NCLH"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9cd"
+    },
+    "symbol": "NTRS"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9ce"
+    },
+    "symbol": "NOC"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9cf"
+    },
+    "symbol": "NRG"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9d0"
+    },
+    "symbol": "NUE"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9d1"
+    },
+    "symbol": "ODFL"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9d2"
+    },
+    "symbol": "OKE"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9d3"
+    },
+    "symbol": "OXY"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9d4"
+    },
+    "symbol": "ORLY"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9d5"
+    },
+    "symbol": "ON"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9d6"
+    },
+    "symbol": "OMC"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9d7"
+    },
+    "symbol": "OTIS"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9d8"
+    },
+    "symbol": "PCAR"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9d9"
+    },
+    "symbol": "PANW"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9da"
+    },
+    "symbol": "PAYX"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9db"
+    },
+    "symbol": "PKG"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9dc"
+    },
+    "symbol": "PH"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9dd"
+    },
+    "symbol": "PYPL"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9de"
+    },
+    "symbol": "PLTR"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9df"
+    },
+    "symbol": "PARA"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9e0"
+    },
+    "symbol": "PAYC"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9e1"
+    },
+    "symbol": "PNW"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9e2"
+    },
+    "symbol": "PSX"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9e3"
+    },
+    "symbol": "PNR"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9e4"
+    },
+    "symbol": "PNC"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9e5"
+    },
+    "symbol": "PPL"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9e6"
+    },
+    "symbol": "PCG"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9e7"
+    },
+    "symbol": "PPG"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9e8"
+    },
+    "symbol": "POOL"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9e9"
+    },
+    "symbol": "PRU"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9ea"
+    },
+    "symbol": "PTC"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9eb"
+    },
+    "symbol": "PSA"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9ec"
+    },
+    "symbol": "PFG"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9ed"
+    },
+    "symbol": "PHM"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9ee"
+    },
+    "symbol": "PGR"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9ef"
+    },
+    "symbol": "PLD"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9f0"
+    },
+    "symbol": "PEG"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9f1"
+    },
+    "symbol": "RJF"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9f2"
+    },
+    "symbol": "PWR"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9f3"
+    },
+    "symbol": "DGX"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9f4"
+    },
+    "symbol": "RL"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9f5"
+    },
+    "symbol": "REGN"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9f6"
+    },
+    "symbol": "RTX"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9f7"
+    },
+    "symbol": "REG"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9f8"
+    },
+    "symbol": "O"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9f9"
+    },
+    "symbol": "RVTY"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9fa"
+    },
+    "symbol": "ROST"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9fb"
+    },
+    "symbol": "RSG"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9fc"
+    },
+    "symbol": "RMD"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9fd"
+    },
+    "symbol": "RF"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9fe"
+    },
+    "symbol": "ROP"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03f9ff"
+    },
+    "symbol": "ROL"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa00"
+    },
+    "symbol": "ROK"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa01"
+    },
+    "symbol": "SPGI"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa02"
+    },
+    "symbol": "RCL"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa03"
+    },
+    "symbol": "STX"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa04"
+    },
+    "symbol": "SHW"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa05"
+    },
+    "symbol": "SBAC"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa06"
+    },
+    "symbol": "SRE"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa07"
+    },
+    "symbol": "SLB"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa08"
+    },
+    "symbol": "NOW"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa09"
+    },
+    "symbol": "SPG"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa0a"
+    },
+    "symbol": "SW"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa0b"
+    },
+    "symbol": "LUV"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa0c"
+    },
+    "symbol": "SO"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa0d"
+    },
+    "symbol": "SWKS"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa0e"
+    },
+    "symbol": "SNA"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa0f"
+    },
+    "symbol": "SOLV"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa10"
+    },
+    "symbol": "SJM"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa11"
+    },
+    "symbol": "SBUX"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa12"
+    },
+    "symbol": "SWK"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa13"
+    },
+    "symbol": "SYK"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa14"
+    },
+    "symbol": "STT"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa15"
+    },
+    "symbol": "SYF"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa16"
+    },
+    "symbol": "STE"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa17"
+    },
+    "symbol": "STLD"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa18"
+    },
+    "symbol": "SMCI"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa19"
+    },
+    "symbol": "TMUS"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa1a"
+    },
+    "symbol": "SNPS"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa1b"
+    },
+    "symbol": "SYY"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa1c"
+    },
+    "symbol": "TPR"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa1d"
+    },
+    "symbol": "TTWO"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa1e"
+    },
+    "symbol": "TGT"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa1f"
+    },
+    "symbol": "TRGP"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa20"
+    },
+    "symbol": "TROW"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa21"
+    },
+    "symbol": "TSCO"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa22"
+    },
+    "symbol": "TJX"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa23"
+    },
+    "symbol": "TKO"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa24"
+    },
+    "symbol": "TER"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa25"
+    },
+    "symbol": "TPL"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa26"
+    },
+    "symbol": "TEL"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa27"
+    },
+    "symbol": "TXT"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa28"
+    },
+    "symbol": "TDY"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa29"
+    },
+    "symbol": "TRMB"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa2a"
+    },
+    "symbol": "TT"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa2b"
+    },
+    "symbol": "TSN"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa2c"
+    },
+    "symbol": "TRV"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa2d"
+    },
+    "symbol": "TYL"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa2e"
+    },
+    "symbol": "TFC"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa2f"
+    },
+    "symbol": "TDG"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa30"
+    },
+    "symbol": "USB"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa31"
+    },
+    "symbol": "UHS"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa32"
+    },
+    "symbol": "UAL"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa33"
+    },
+    "symbol": "ULTA"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa34"
+    },
+    "symbol": "URI"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa35"
+    },
+    "symbol": "VTR"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa36"
+    },
+    "symbol": "UBER"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa37"
+    },
+    "symbol": "UDR"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa38"
+    },
+    "symbol": "VLO"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa39"
+    },
+    "symbol": "VLTO"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa3a"
+    },
+    "symbol": "VMC"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa3b"
+    },
+    "symbol": "VRSN"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa3c"
+    },
+    "symbol": "VRSK"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa3d"
+    },
+    "symbol": "VTRS"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa3e"
+    },
+    "symbol": "VICI"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa3f"
+    },
+    "symbol": "VRTX"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa40"
+    },
+    "symbol": "VST"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa41"
+    },
+    "symbol": "WRB"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa42"
+    },
+    "symbol": "WAT"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa43"
+    },
+    "symbol": "WBD"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa44"
+    },
+    "symbol": "GWW"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa45"
+    },
+    "symbol": "WM"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa46"
+    },
+    "symbol": "WAB"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa47"
+    },
+    "symbol": "WEC"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa48"
+    },
+    "symbol": "WBA"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa49"
+    },
+    "symbol": "WTW"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa4a"
+    },
+    "symbol": "WELL"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa4b"
+    },
+    "symbol": "WDC"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa4c"
+    },
+    "symbol": "WDAY"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa4d"
+    },
+    "symbol": "WST"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa4e"
+    },
+    "symbol": "WY"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa4f"
+    },
+    "symbol": "WSM"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa50"
+    },
+    "symbol": "WMB"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa51"
+    },
+    "symbol": "XYL"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa52"
+    },
+    "symbol": "WYNN"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa53"
+    },
+    "symbol": "YUM"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa54"
+    },
+    "symbol": "ZBH"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa55"
+    },
+    "symbol": "ZBRA"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa56"
+    },
+    "symbol": "XEL"
+  },
+  {
+    "_id": {
+      "$oid": "6834fe059a452484ba03fa57"
+    },
+    "symbol": "ZTS"
+  }
+]
