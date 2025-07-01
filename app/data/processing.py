@@ -4,7 +4,7 @@ Data processing module for transforming financial data.
 from datetime import datetime
 from typing import List, Dict, Any
 import pandas as pd
-from app.models.company import Company
+from app.models.Company import Company
 from app.models.financial_models import (
     CompanyFinancialMetrics, ReturnOnCapital, CapexAndCostStructure, 
     AssetAndCapitalQuality, CashCycle, Profitability, CashFlowStrength, 

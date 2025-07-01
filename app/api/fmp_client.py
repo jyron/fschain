@@ -7,8 +7,9 @@ import time
 from datetime import datetime
 from typing import Any, Dict, List, Optional
 import requests
-from app.config import FMP_API_KEY, FMP_RATIOS_TTM_URL, FMP_KEY_METRICS_TTM_URL
+from app.config import FMP_API_KEY, FMP_RATIOS_TTM_URL, FMP_KEY_METRICS_TTM_URL, FMP_COMPANY_PROFILE_URL
 from app.utils.schema_loader import load_metrics_schema
+from app.models.Company import CompanyMetadata
 
 
 class FMPClient:
@@ -228,4 +229,24 @@ class FMPClient:
         return {
             "cache_size": len(self._cache),
             "cached_symbols": len(set(key.split("_")[-1] for key in self._cache.keys()))
-        } 
+        }
+    
+    def get_company_metadata(self, symbol: str) -> CompanyMetadata:
+        """
+        Fetch company profile and return CompanyMetadata for the given symbol.
+        Args:
+            symbol: Stock symbol
+        Returns:
+            CompanyMetadata object with price, marketCap, sector, industry, and country
+        """
+        url = f"{FMP_COMPANY_PROFILE_URL}?symbol={symbol}&apikey={self.api_key}"
+        data = self._make_request(url)
+        return CompanyMetadata(
+            symbol=data.get("symbol"),
+            companyName=data.get("companyName"),
+            price=data.get("price"),
+            marketCap=data.get("marketCap"),
+            sector=data.get("sector"),
+            industry=data.get("industry"),
+            country=data.get("country")
+        ) 

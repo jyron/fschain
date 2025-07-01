@@ -20,6 +20,7 @@ COMPANY_INDEXES_OUTPUT_PATH = "data/company_financial_indexes.csv"
 FMP_BASE_URL = "https://financialmodelingprep.com/stable"
 FMP_RATIOS_TTM_URL = f"{FMP_BASE_URL}/ratios-ttm"
 FMP_KEY_METRICS_TTM_URL = f"{FMP_BASE_URL}/key-metrics-ttm"
+FMP_COMPANY_PROFILE_URL = f"{FMP_BASE_URL}/profile"
 
 # Processing Configuration
 DEFAULT_BATCH_SIZE = 10 
