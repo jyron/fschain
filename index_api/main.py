@@ -5,10 +5,11 @@ import uvicorn
 import sys
 import os
 
-# Add the current directory to Python path so it can find plotting.py
+# Add the current directory to Python path so it can find plotting.py and html_rendering.py
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-from plotting import create_index_plot_html, create_company_radar_plot
+from plotting import create_index_radar_figure, get_company_metric_breakdown, create_dashboard_figures
+from html_rendering import render_index_plot_html, render_scatter_dashboard_html
 
 app = FastAPI()
 
@@ -29,7 +30,6 @@ def get_index_plot_html(ticker: str):
     """Get an interactive HTML radar plot for a specific ticker"""
     df = pd.read_csv("data/company_financial_indexes.csv")
     company_df = df[df["ticker"] == ticker.upper()]
-    
     if company_df.empty:
         return f"""
         <html>
@@ -41,19 +41,26 @@ def get_index_plot_html(ticker: str):
             </body>
         </html>
         """
-    
-    return create_index_plot_html(company_df)
+    fig = create_index_radar_figure(company_df)
+    metrics = get_company_metric_breakdown(company_df)
+    index_score = company_df.iloc[0]["index_score"] if not company_df.empty else None
+    return render_index_plot_html(fig, ticker.upper(), metrics, index_score)
+
+@app.get("/scatter", response_class=HTMLResponse)
+def get_scatter_plot():
+    """Get an interactive multi-company radar plot showing financial strengths/weaknesses"""
+    df = pd.read_csv("data/company_financial_indexes.csv")
+    dashboard = create_dashboard_figures(df)
+    return render_scatter_dashboard_html(dashboard)
 
 @app.get("/available-tickers", response_class=HTMLResponse)
 def get_available_tickers():
     """Show all available tickers as clickable links"""
     df = pd.read_csv("data/company_financial_indexes.csv")
     tickers = sorted(df['ticker'].unique())
-    
     ticker_links = []
     for ticker in tickers:
         ticker_links.append(f'<li><a href="/plot/{ticker}">{ticker}</a></li>')
-    
     html = f"""
     <html>
         <head>
@@ -103,6 +110,16 @@ def root():
                     border-radius: 5px; 
                 }
                 .button:hover { background-color: #0056b3; }
+                .new-feature { 
+                    background-color: #28a745;
+                    animation: pulse 2s infinite;
+                }
+                .new-feature:hover { background-color: #1e7e34; }
+                @keyframes pulse {
+                    0% { box-shadow: 0 0 0 0 rgba(40, 167, 69, 0.4); }
+                    70% { box-shadow: 0 0 0 10px rgba(40, 167, 69, 0); }
+                    100% { box-shadow: 0 0 0 0 rgba(40, 167, 69, 0); }
+                }
             </style>
         </head>
         <body>
@@ -112,11 +129,13 @@ def root():
                 
                 <h3>Available Options:</h3>
                 <a href="/available-tickers" class="button">📈 View All Stock Tickers</a>
+                <a href="/scatter" class="button">🎯 Company Dashboard</a>
                 <a href="/plot/AAPL" class="button">🔍 Example: Apple (AAPL)</a>
                 <a href="/index/f/" class="button">📋 Raw Data (JSON)</a>
                 
                 <h3>API Endpoints:</h3>
                 <ul style="text-align: left; margin-top: 20px;">
+                    <li><code>/scatter</code> - Multi-company dashboard with comprehensive analytics</li>
                     <li><code>/plot/{ticker}</code> - Interactive radar chart for specific ticker</li>
                     <li><code>/index/f/{ticker}</code> - JSON data for specific ticker</li>
                     <li><code>/index/f/</code> - JSON data for all companies</li>
