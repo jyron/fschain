@@ -62,6 +62,7 @@ def render_index_plot_html(fig: Figure, ticker: str, metrics: List[Tuple[str, fl
     </head>
     <body>
         <div class=\"container\">
+        <a href=\"/\" class=\"back-link\">← Back to Home</a>
             <div class=\"header\">
                 <h1>Financial Health Analysis - {ticker}</h1>
                 <p style=\"font-size: 18px; color: #666;\">Overall Index Score: <strong>{index_score:.3f}/1.000</strong></p>
