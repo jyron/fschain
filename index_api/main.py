@@ -16,19 +16,19 @@ app = FastAPI()
 
 @app.get("/index/f/{ticker}")
 def get_index_score(ticker: str):
-    df = pd.read_csv("data/company_financial_indexes.csv")
+    df = pd.read_csv("../data/company_financial_indexes.csv")
     df = df[df["ticker"] == ticker.upper()]
     return df.to_dict(orient="records")
 
 @app.get("/index/f/")
 def get_all_index_scores():
-    df = pd.read_csv("data/company_financial_indexes.csv")
+    df = pd.read_csv("../data/company_financial_indexes.csv")
     return df.to_dict(orient="records")
 
 @app.get("/plot/{ticker}", response_class=HTMLResponse)
 def get_index_plot_html(ticker: str):
     """Get an interactive HTML radar plot for a specific ticker"""
-    df = pd.read_csv("data/company_financial_indexes.csv")
+    df = pd.read_csv("../data/company_financial_indexes.csv")
     company_df = df[df["ticker"] == ticker.upper()]
     if company_df.empty:
         return f"""
@@ -46,17 +46,17 @@ def get_index_plot_html(ticker: str):
     index_score = company_df.iloc[0]["index_score"] if not company_df.empty else None
     return render_index_plot_html(fig, ticker.upper(), metrics, index_score)
 
-@app.get("/scatter", response_class=HTMLResponse)
+@app.get("/s&p500", response_class=HTMLResponse)
 def get_scatter_plot():
     """Get an interactive multi-company radar plot showing financial strengths/weaknesses"""
-    df = pd.read_csv("data/company_financial_indexes.csv")
+    df = pd.read_csv("../data/company_financial_indexes.csv")
     dashboard = create_dashboard_figures(df)
     return render_scatter_dashboard_html(dashboard)
 
 @app.get("/available-tickers", response_class=HTMLResponse)
 def get_available_tickers():
     """Show all available tickers as clickable links"""
-    df = pd.read_csv("data/company_financial_indexes.csv")
+    df = pd.read_csv("../data/company_financial_indexes.csv")
     tickers = sorted(df['ticker'].unique())
     ticker_links = []
     for ticker in tickers:
@@ -92,59 +92,119 @@ def get_available_tickers():
 
 @app.get("/", response_class=HTMLResponse)
 def root():
-    """Landing page with navigation"""
     return """
-    <html>
-        <head>
-            <title>Financial Index API</title>
-            <style>
-                body { font-family: Arial, sans-serif; margin: 40px; text-align: center; }
-                .container { max-width: 600px; margin: 0 auto; }
-                .button { 
-                    display: inline-block; 
-                    padding: 10px 20px; 
-                    margin: 10px; 
-                    background-color: #007bff; 
-                    color: white; 
-                    text-decoration: none; 
-                    border-radius: 5px; 
-                }
-                .button:hover { background-color: #0056b3; }
-                .new-feature { 
-                    background-color: #28a745;
-                    animation: pulse 2s infinite;
-                }
-                .new-feature:hover { background-color: #1e7e34; }
-                @keyframes pulse {
-                    0% { box-shadow: 0 0 0 0 rgba(40, 167, 69, 0.4); }
-                    70% { box-shadow: 0 0 0 10px rgba(40, 167, 69, 0); }
-                    100% { box-shadow: 0 0 0 0 rgba(40, 167, 69, 0); }
-                }
-            </style>
-        </head>
-        <body>
-            <div class="container">
-                <h1>📊 Financial Index API</h1>
-                <p>Welcome to the Financial Health Analysis API!</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FS Chain API: Valuation as a Service</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            line-height: 1.6;
+            color: #333;
+            background: #fafafa;
+        }
+        h1 {
+            font-size: 2.5em;
+            
+            color: #1a1a1a;
+            font-weight: 700;
+        }
+        p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            color: #555;
+        }
+        .highlight {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 600;
+        }
+        .index-item {
+            background: white;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-left: 4px solid #667eea;
+        }
+        .index-title {
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 8px;
+        }
+        .index-desc {
+            color: #666;
+            font-size: 0.95em;
+        }
+        .value-prop {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin: 30px 0;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            border: 1px solid #e1e5e9;
+        }
+        a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .coming-soon {
+            background: #f8f9fa;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            color: #666;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>📊 FS Chain API: Valuation as a Service</h1>
+    
+    <p>The financial markets have operated on noisy data for decades. <span class="highlight">FS Chain changes that</span>.</p>
+    
+    <p>Our API delivers unprecedented precision in S&P 500 company valuations through two revolutionary, independent tracking systems that eliminate the noise plaguing traditional investment strategies.</p>
+    
+    <div class="index-item">
+        <div class="index-title">F-Index</div>
+        <div class="index-desc">Pure financial fundamentals stripped of market emotion and speculation.</div>
+    </div>
+    
+    <div class="index-item">
+        <div class="index-title">S-Index <span class="coming-soon">launching soon</span></div>
+        <div class="index-desc">Real-time sentiment dynamics captured and quantified.</div>
+    </div>
+    
+    <div class="value-prop">
+        <p>Each index enables portfolio construction with surgical precision, allowing institutional investors to isolate fundamental value from sentiment-driven volatility. The indices power our F-Token and S-Token pricing mechanisms, creating the first truly separated value streams in financial markets.</p>
+        
+        <p>This is not incremental improvement. This is market infrastructure reimagined.</p>
+    </div>
+    
+    <p>Complete technical specifications and research available at <a href="https://fschain.framer.wiki/in-laymens-terms">FS Chain Wiki</a>.</p>
+    
+   <h3>Available Dashboards:</h3>
+               
+                <a href="/s&p500" class="button">🎯 S&P 500 Dashboard</a>
+                <a href="/plot/AAPL" class="button">🔍 Dashboard Example: (AAPL)</a>
+                <a href="/index/f/AAPL" class="button">📋 Raw Data (JSON) for AAPL</a>
+                <a href="/available-tickers" class="button">📈 Available Tickers</a>
                 
-                <h3>Available Options:</h3>
-                <a href="/available-tickers" class="button">📈 View All Stock Tickers</a>
-                <a href="/scatter" class="button">🎯 Company Dashboard</a>
-                <a href="/plot/AAPL" class="button">🔍 Example: Apple (AAPL)</a>
-                <a href="/index/f/" class="button">📋 Raw Data (JSON)</a>
-                
-                <h3>API Endpoints:</h3>
-                <ul style="text-align: left; margin-top: 20px;">
-                    <li><code>/scatter</code> - Multi-company dashboard with comprehensive analytics</li>
-                    <li><code>/plot/{ticker}</code> - Interactive radar chart for specific ticker</li>
-                    <li><code>/index/f/{ticker}</code> - JSON data for specific ticker</li>
-                    <li><code>/index/f/</code> - JSON data for all companies</li>
-                    <li><code>/available-tickers</code> - List of all available tickers</li>
-                </ul>
-            </div>
-        </body>
-    </html>
+</body>
+</html>
     """
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
+
+        
