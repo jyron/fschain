@@ -249,4 +249,4 @@ class FMPClient:
             sector=data.get("sector"),
             industry=data.get("industry"),
             country=data.get("country")
-        ) 
+        )
