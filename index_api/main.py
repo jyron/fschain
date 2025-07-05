@@ -173,7 +173,7 @@ def root():
     
     <p>The financial markets have operated on noisy data for decades. <span class="highlight">FS Chain changes that</span>.</p>
     
-    <p>Our API delivers unprecedented precision in S&P 500 company valuations through two revolutionary, independent tracking systems that eliminate the noise plaguing traditional investment strategies.</p>
+    <p>Our API delivers unprecedented precision in S&P 500 company valuations through two discrete and independent tracking systems that eliminate the noise plaguing traditional investment strategies.</p>
     
     <div class="index-item">
         <div class="index-title">F-Index</div>
